@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: orders-api
+  description: "A Spring Boot service on CLX Container Apps"
+  annotations:
+    github.com/project-slug: sampgreenwell-cyber/ordersapi
+    backstage.io/source-location: url:https://github.com/sampgreenwell-cyber/ordersapi
+  tags:
+    - java
+    - spring-boot
+    - container-apps
+    - api
+  labels:
+    clx.platform/template: spring-container-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/guests

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: orders-api
+
+server:
+  # Keep in sync with targetPort in infra/main.bicep and EXPOSE in the Dockerfile.
+  port: 8080
